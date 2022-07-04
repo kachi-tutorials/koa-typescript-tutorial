@@ -88,7 +88,7 @@ This should create a **`tsconfig.json`** file with the default settings, let's r
 
 ## Restructuring our project
 
-We will now need to restruct our project by doing the following:
+We will now need to restructure our project by doing the following:
 
 Firstly, let's create a **`src`** folder:
 
