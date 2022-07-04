@@ -161,7 +161,7 @@ export default router;
 Before we update our **`events.controllers.ts`** file, let's create a **`types`** directory using the following command:
 
 ```bash
-mkdir types
+mkdir src/types
 touch src/types/events.types.ts
 ```
 
