@@ -135,9 +135,7 @@ import router from "./router";
 const App = new Koa();
 const port = 8000;
 
-App.use(parser())
-  .use(cors())
-  .use(router.routes());
+App.use(parser()).use(cors()).use(router.routes());
 
 App.listen(port, () => {
   console.log(`🚀 Server listening http://127.0.0.1:${port}/ 🚀`);
